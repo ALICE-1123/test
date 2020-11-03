@@ -1,0 +1,84 @@
+h1{
+color:green;
+font-size:1.5em;
+}
+h2{
+color:purple;
+font-size:1.1em;
+}
+P.title{
+text-align:center;
+color:red;
+font-size:large;
+font-weight:bold;
+}
+div.top{
+height:70%;
+float:left;
+}
+div.bottom{
+height:30;
+float:left;
+}
+div.abstract{
+text-align:center;
+font-style:italic;
+color:green;
+padding-top:10px;
+padding-right:80px;
+padding-bottom:10px;
+padding-left:80px;
+}
+div.left{
+width:25%;
+float:left;
+}
+div.right{
+width:75%;
+float:left;
+}
+.container {
+width: 100%;
+}
+.block {
+float: left;
+width: 40%;
+border: solid red;
+margin: 1em;
+}
+.block_break {
+clear: left;
+border: solid green;
+}
+#s007{
+background-color:yellow;
+border:soild;
+border-color:blue;
+}
+.choose {
+border: solid;
+border-color: yellowgreen;
+background-color: #adff2f54;
+}
+*{
+font-size:2rem;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+ 
+/* selected link */
+a:active {
+  color: blue;
+}
